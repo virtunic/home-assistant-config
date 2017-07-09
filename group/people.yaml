@@ -1,0 +1,6 @@
+Family:
+  entities:
+    - device_tracker.nick
+    - device_tracker.abby
+    - device_tracker.logan
+    - device_tracker.kylie

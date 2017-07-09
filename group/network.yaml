@@ -1,0 +1,16 @@
+Network:
+  entities:
+    - sensor.ha_installed_version
+    - sensor.ha_uptime
+    - sensor.since_last_boot_templated
+    - sensor.disk_use_
+    - sensor.speedtest_download
+    - sensor.speedtest_upload
+    - sensor.unifi_ap
+    - sensor.wii
+    - sensor.rachio
+    - sensor.skybell
+    - sensor.samsungtv
+    - sensor.chromecast_audio_1
+    - sensor.chromecast_audio_2
+    - sensor.smart_water_meter

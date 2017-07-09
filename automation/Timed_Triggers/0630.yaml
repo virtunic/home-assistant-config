@@ -1,0 +1,30 @@
+######################################################################
+##  Stuff that needs to happen at 06:30am.
+######################################################################
+
+- alias: 'Timed 630.'
+  trigger:
+    - platform: time
+      at: '06:50:00'
+
+  condition:
+    - condition: state
+      entity_id: group.family
+      state: home
+    - condition: state
+      entity_id: input_boolean.school_mode
+      state: 'on'
+    - condition: time
+      weekday:
+        - mon
+        - tue
+        - wed
+        - thu
+        - fri
+
+  action:
+    - service: light.turn_on
+      entity_id:
+        - group.dining_room_lights
+    - service: switch.turn_on
+      entity_id: switch.kitchen_accents

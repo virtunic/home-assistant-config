@@ -1,0 +1,22 @@
+Interior_Lights:
+  entities:
+    - group.bedroom_lights
+    - group.living_room_lights
+    - group.living_room_accents
+    - group.dining_room_lights
+    - group.bedromm4_lights
+    - group.office_lights
+    - group.hallway_lights
+    - group.kitchen_lights
+    - group.upstairs_lights
+    - group.outdoor_lights
+    - group.garage_lights
+    - group.kylies_room
+    - group.logans_room
+
+Exterior_Lights:
+  entities:
+    - light.outdoor_bathroom
+    - group.Outdoor_pool_lights
+    - group.outdoor_front_lights
+    - group.landscaping

@@ -1,0 +1,31 @@
+#-------------------------------------------
+#  Space Related Packages
+# @CCOSTAN
+# Original Repo : https://github.com/CCOSTAN/Home-AssistantConfig
+#-------------------------------------------
+#------ISS----------------------------------
+homeassistant:
+  customize:
+    binary_sensor.iss:
+      icon: mdi:satellite-variant
+      friendly_name: ISS Visibility
+      emulated_hue: False
+      hidden: False
+      homebridge_hidden: true
+#-------------------------------------------
+binary_sensor:
+  - platform: iss
+    show_on_map: False
+#-------------------------------------------
+automation:
+  - alias: 'ISS is above us'
+
+    trigger:
+      - platform: state
+        entity_id:
+          - binary_sensor.iss
+        state: 'on'
+        from: 'off'
+
+    action:
+      - service: script.speech_engine

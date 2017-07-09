@@ -1,0 +1,32 @@
+###################################
+##  Late Night lights Section
+# @CCOSTAN
+# Original Repo : https://github.com/CCOSTAN/Home-AssistantConfig
+###################################
+- alias: 'Late Night Helper outside'
+  trigger:
+    - platform: state
+      entity_id: group.all_covers
+      to: 'open'
+    - platform: state
+      entity_id: sun.sun
+      to: 'below_horizon'
+      from: 'above_horizon'
+
+  condition:
+    condition: and
+    conditions:
+      - condition: state
+        entity_id: sun.sun
+        state: 'below_horizon'
+      - condition: state
+        entity_id: group.all_covers
+        state: 'open'
+
+  action:
+    - service: scene.turn_on
+      entity_id: scene.front_full_brightness
+    - service: switch.turn_on
+      entity_id: switch.back_landscaping
+#    - wait_template: "{{ states.group.garage_doors.states == 'closed' }}"
+#    - service: script.monthly_color_scene
