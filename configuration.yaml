@@ -178,7 +178,9 @@ tts:
     text_type: ssml
     cache: True
 
-
+influxdb:
+  host: 127.0.0.1
+  
 #cover:
 #  platform: garadget
 #  covers:
