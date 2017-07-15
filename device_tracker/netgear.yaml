@@ -1,0 +1,4 @@
+- platform: netgear
+    host: 10.0.1.254
+    username: !secret netgear_user
+    password: !secret netgear_passwd

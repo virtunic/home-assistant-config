@@ -1,5 +1,5 @@
 Bear Stone View:
-  name: Bear Stone Run
+  name: Lochwood
   view: yes
   icon: mdi:home
   entities:
@@ -31,8 +31,8 @@ Doors:
   entities:
     - group.family
     - group.garage_doors
-        
-    
+
+
 Lights:
   view: yes
   icon: mdi:lightbulb
@@ -55,7 +55,7 @@ Lights:
     - group.outdoor_pool_lights
     - group.outdoor_front_lights
     - group.all_switches
-    
+
 Info:
   view: yes
   icon: mdi:settings

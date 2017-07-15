@@ -46,12 +46,6 @@ group.amps:
   homebridge_hidden: true
 
 
-group.sleep_number_bed:
-  friendly_name: 'Sleep Number Bed'
-  emulated_hue: False
-  hidden: False
-  homebridge_hidden: true
-
 
 group.bedroom_lights:
   friendly_name: 'Bedroom Lights'
@@ -137,8 +131,8 @@ group.interior_lights:
 
 
 
-group.justins_room:
-  friendly_name: 'Justins Room'
+group.logans_room:
+  friendly_name: 'Logans Room'
   emulated_hue: False
   hidden: False
 
@@ -200,8 +194,8 @@ group.outdoor_pool_lights:
 
 
 
-group.paiges_room:
-  friendly_name: 'Paiges Room'
+group.kylies_room:
+  friendly_name: 'Kylies Room'
   emulated_hue: False
   hidden: False
 

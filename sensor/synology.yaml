@@ -1,0 +1,12 @@
+  - platform: synologydsm
+    host: 10.0.1.199
+    username: !secret area51_username
+    password: !secret area51_passwd
+    monitored_conditions:
+      - cpu_total_load
+      - memory_real_usage
+      - network_up
+      - disk_smart_status
+      - disk_status
+      - volume_percentage_used
+      - volume_status

@@ -7,7 +7,7 @@ Network:
     - sensor.speedtest_download
     - sensor.speedtest_upload
     - sensor.unifi_ap
-    - sensor.wii
+    - sensor.wiiu
     - sensor.rachio
     - sensor.skybell
     - sensor.samsungtv

@@ -3,16 +3,15 @@
 ##  Nest Section
 ###################################
 climate.downstairs:
-  friendly_name: 'Nest Downstairs'
+  friendly_name: 'Ecobee Main'
   icon: mdi:air-conditioner
 climate.upstairs:
   friendly_name: 'Nest Upstairs'
   icon: mdi:air-conditioner
 
-  
+
 ###################################
 ##  Sun Section
 ###################################
 sun.sun:
   hidden: true
-  
