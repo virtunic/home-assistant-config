@@ -206,14 +206,6 @@ device_tracker.skybell:
 
 
 
-device_tracker.sleep_number_bed:
-  friendly_name: 'Sleep Number Bed'
-  emulated_hue: False
-  hidden: True
-
-
-
-
 device_tracker.small_garage:
   friendly_name: 'Small Garage'
   emulated_hue: False
@@ -254,8 +246,8 @@ device_tracker.unifi_ap:
 
 
 
-device_tracker.wii:
-  friendly_name: 'Wii'
+device_tracker.wiiu:
+  friendly_name: 'Wii U'
   emulated_hue: False
   hidden: True
 

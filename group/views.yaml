@@ -1,4 +1,4 @@
-Bear Stone View:
+Lochwood View:
   name: Lochwood
   view: yes
   icon: mdi:home
@@ -55,6 +55,35 @@ Lights:
     - group.outdoor_pool_lights
     - group.outdoor_front_lights
     - group.all_switches
+
+Weather:
+  view: yes
+  icon: mdi:weather-partlycloudy
+  entities:
+    - sensor.dark_sky_summary
+    - sensor.dark_sky_daily_summary
+    - sensor.dark_sky_hourly_summary
+    - sensor.dark_sky_minutely_summary
+    - group.thermostat
+    - group.indoor_temperature
+    - group.weather
+    - group.humidity
+    - group.weather_summary
+
+Sensors:
+  view: yes
+  icon: mdi:gauge
+  entities:
+    - group.household
+    - group.device_location
+    - group.friends_and_family
+    - group.occupancy
+    - group.doors
+    - group.door_bell
+    - group.water_sensors
+    - group.nas
+    - group.system
+    - group.battery_levels
 
 Info:
   view: yes

@@ -1,5 +1,5 @@
 - platform: template
-    sensors:
+  sensors:
       wii:
           friendly_name: 'Wii U'
           value_template: "{{ 'Online' if is_state('device_tracker.wii', 'home') else 'Offline' }}"
