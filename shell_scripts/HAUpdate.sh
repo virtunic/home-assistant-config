@@ -1,9 +1,9 @@
-##  These scripts are run from /home/pi 
+##  These scripts are run from /home/pi
 
 #!/bin/bash
 
 cd /home/hass/.homeassistant
-source /srv/hass/hass_venv/bin/activate
+source /srv/hass/bin/activate
 
 echo "Processing update"
 pip3 install --upgrade homeassistant
