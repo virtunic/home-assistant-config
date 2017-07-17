@@ -165,6 +165,11 @@ media_player:
     name: Living Room TV
     scan_interval: 60
 
+ remote:
+   - platform: harmony
+     name: Game Room
+     host: 10.0.1.157
+
 tts:
   - platform: google
 #    aws_access_key_id: !secret aws_access_key_ID
@@ -175,7 +180,7 @@ tts:
 
 influxdb:
   host: 127.0.0.1
-  
+
 #cover:
 #  platform: garadget
 #  covers:

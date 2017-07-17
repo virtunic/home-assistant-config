@@ -56,7 +56,7 @@ Lights:
     - group.outdoor_front_lights
     - group.all_switches
 
-Weather:
+WeatherDashboard:
   view: yes
   icon: mdi:weather-partlycloudy
   entities:

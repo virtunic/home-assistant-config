@@ -220,10 +220,7 @@ group.upstairs_lights:
   emulated_hue: True
   hidden: False
 
-
-
 group.weather:
   friendly_name: 'Weather'
   emulated_hue: False
   hidden: False
-  homebridge_hidden: true

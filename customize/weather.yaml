@@ -2,11 +2,8 @@
 ###################################
 ##  Nest Section
 ###################################
-climate.downstairs:
+climate.main:
   friendly_name: 'Ecobee Main'
-  icon: mdi:air-conditioner
-climate.upstairs:
-  friendly_name: 'Nest Upstairs'
   icon: mdi:air-conditioner
 
 

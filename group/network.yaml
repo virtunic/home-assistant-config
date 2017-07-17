@@ -14,3 +14,13 @@ Network:
     - sensor.chromecast_audio_1
     - sensor.chromecast_audio_2
     - sensor.smart_water_meter
+
+System:
+  entities:
+    - sensor.cpu
+    - sensor.cpu_use
+    - sensor.ram_use
+    - sensor.ram_free
+    - sensor.since_last_boot
+#    - binary_sensor.philips_hue
+    - updater.updater

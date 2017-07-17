@@ -1,0 +1,16 @@
+Synolgy:
+  entities:
+    - sensor.network_up
+    - sensor.network_down
+    - sensor.disk_use_
+    - sensor.status_sda
+    - sensor.status_sdb
+    - sensor.status_sdc
+    - sensor.status_sdd
+    - sensor.status_sde
+    - sensor.status_smart_sda
+    - sensor.status_smart_sdb
+    - sensor.status_smart_sdc
+    - sensor.status_smart_sdd
+    - sensor.status_smart_sde
+    - sensor.status_volume_1

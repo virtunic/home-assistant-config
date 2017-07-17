@@ -8,10 +8,6 @@ homeassistant:
       friendly_name: 'Mosquitto'
       emulated_hue: False
       hidden: False
-    sensor.process_homebridge:
-      friendly_name: 'Apple HomeKit'
-      emulated_hue: False
-      hidden: False
     sensor.process_node:
       friendly_name: 'Dash Button Monitor'
       emulated_hue: False
@@ -29,8 +25,6 @@ sensor:
       - type: process
         arg: mosquitto
       - type: process
-        arg: homebridge
-      - type: process
         arg: node
 #-------------------------------------------
 group:
@@ -39,7 +33,6 @@ group:
     control: hidden
     entities:
       - sensor.process_mosquitto
-      - sensor.process_homebridge
       - sensor.process_node
 #-------------------------------------------
 ##############################################################################
@@ -53,7 +46,6 @@ automation:
          - platform: state
            entity_id:
              - sensor.process_mosquitto
-             - sensor.process_homebridge
              - sensor.process_dasher
            to: 'off'
            for:
