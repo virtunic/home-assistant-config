@@ -133,12 +133,12 @@ history:
 logger: !include logger.yaml
 recorder: !include recorder.yaml
 
-#mqtt:
-#  broker: 127.0.0.1
-#  port: 1883
-#  client_id: home-assistant-Buzz
-#  username: !secret MQTT_username
-#  password: !secret MQTT_password
+mqtt:
+  broker: 127.0.0.1
+  port: 1883
+  client_id: home-assistant-Buzz
+  username: !secret MQTT_username
+  password: !secret MQTT_password
 
 #zwave:
 # usb_path: /dev/ttyACM0
@@ -155,6 +155,8 @@ ecobee:
 climate:
   platform: ecobee
 
+apcupsd: 10.0.1.3
+
 media_player:
 
   - platform: roku
@@ -164,11 +166,7 @@ media_player:
     port: 8001
     name: Living Room TV
     scan_interval: 60
-
- remote:
-   - platform: harmony
-     name: Game Room
-     host: 10.0.1.157
+    mac: 5c:a3:9d:42:bf:fb
 
 tts:
   - platform: google

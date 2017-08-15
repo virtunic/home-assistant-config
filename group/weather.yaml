@@ -16,9 +16,9 @@ Weather:
     - sensor.moon
     - binary_sensor.iss
 
-  Weather Summary:
-    entities:
-      - sensor.dark_sky_summary
-      - sensor.dark_sky_minutely_summary
-      - sensor.dark_sky_hourly_summary
-      - sensor.dark_sky_daily_summary
+Weather Summary:
+  entities:
+    - sensor.dark_sky_summary
+    - sensor.dark_sky_minutely_summary
+    - sensor.dark_sky_hourly_summary
+    - sensor.dark_sky_daily_summary

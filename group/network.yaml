@@ -12,9 +12,9 @@ Network:
     - sensor.rachio
     - sensor.skybell
     - sensor.samsungtv
-    - sensor.chromecast_audio_1
-    - sensor.chromecast_audio_2
-    - sensor.smart_water_meter
+#    - sensor.chromecast_audio_1
+#    - sensor.chromecast_audio_2
+#    - sensor.smart_water_meter
 
 System:
   entities:
