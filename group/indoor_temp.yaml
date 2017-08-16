@@ -1,10 +1,11 @@
 Indoor Temperature:
   entities:
     - sensor.home_temperature
-    - sensor.kitchen_temperature
+    - sensor.home_humidity
     - sensor.bedroom_temperature
     - sensor.bathroom_temperature
     - sensor.logan_temperature
     - sensor.nick_office_temperature
     - sensor.abby_office_temperature
     - sensor.game_room_temperature
+    - sensor.game_room_humidity

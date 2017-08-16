@@ -1,7 +1,6 @@
 Thermostat:
   entities:
-    - climate.main_floor
-    - climate.window_unit
+    - climate.home
     - sensor.dark_sky_temperature
     - input_boolean.thermostat_away
     - switch.hallway_fan
