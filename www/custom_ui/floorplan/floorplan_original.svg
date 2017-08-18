@@ -6683,13 +6683,13 @@
        style="font-style:normal;font-weight:normal;font-size:18.67578125px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.40068376"
        x="-293.89523"
        y="-52.058052"
-       id="carlotext"
+       id="Nicktext"
        inkscape:label="#text1979"><tspan
          sodipodi:role="line"
          id="tspan1977"
          x="-293.89523"
          y="-52.058052"
-         style="font-size:14.94062614px;stroke-width:1.40068376">Carlo</tspan></text>
+         style="font-size:14.94062614px;stroke-width:1.40068376">Nick</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:18.67578125px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.40068376"
@@ -6700,13 +6700,13 @@
          id="tspan1977-7"
          x="-294.4115"
          y="-33.612797"
-         style="font-size:14.94062614px;stroke-width:1.40068376">Stacey</tspan></text>
+         style="font-size:14.94062614px;stroke-width:1.40068376">Abby</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:18.67578125px;line-height:1.25;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.40068376"
        x="-168.23798"
        y="-50.657494"
-       id="device_tracker.carlo"
+       id="device_tracker.Nick"
        inkscape:label="#text1979"><tspan
          sodipodi:role="line"
          id="tspan1977-2"
@@ -6718,7 +6718,7 @@
        style="font-style:normal;font-weight:normal;font-size:18.67578125px;line-height:1.25;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.40068376"
        x="-167.98941"
        y="-32.330734"
-       id="device_tracker.stacey"
+       id="device_tracker.abby"
        inkscape:label="#text1979"><tspan
          sodipodi:role="line"
          id="tspan1977-2-7"
@@ -10606,7 +10606,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:27.1348877px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;display:inline;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:2.30674505"
          x="606.01849"
          y="-151.62204"
-         id="climate.downstairs"
+         id="climate.home"
          inkscape:label="#text1979"><tspan
            sodipodi:role="line"
            id="tspan1977-2-5-8-1"
@@ -10628,7 +10628,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:27.1348877px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;display:inline;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:2.30674505"
          x="605.87207"
          y="-125.37872"
-         id="sensor.downstairs_thermostat_humidity"
+         id="sensor.home_thermostat_humidity"
          inkscape:label="#text1979"><tspan
            sodipodi:role="line"
            id="tspan1977-2-5-8-1-9"
