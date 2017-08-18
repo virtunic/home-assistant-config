@@ -4,3 +4,4 @@ Alarm:
     - sensor.alarm_panel_1_battery_level
     - sensor.alarm_panel_1_motion
     - sensor.alarm_panel_1_plugged_in
+    - binary_sensor.office_motion

@@ -660,7 +660,7 @@ sensor.uv_sun_advice:
 
 
 
-sensor.wiiu:
+sensor.wii:
   friendly_name: 'Wii U'
   emulated_hue: False
   hidden: False
