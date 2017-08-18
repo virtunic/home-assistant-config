@@ -1,0 +1,6 @@
+Alarm:
+  entities:
+    - alarm_control_panel.alarmcom
+    - sensor.alarm_panel_1_battery_level
+    - sensor.alarm_panel_1_motion
+    - sensor.alarm_panel_1_plugged_in
