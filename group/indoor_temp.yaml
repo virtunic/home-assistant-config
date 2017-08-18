@@ -8,4 +8,4 @@ Indoor Temperature:
     - sensor.nick_office_temperature
     - sensor.abby_office_temperature
     - sensor.game_room_temperature
-    - sensor.game_room_humidity
+    

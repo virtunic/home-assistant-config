@@ -180,8 +180,16 @@ tts:
 influxdb:
   host: 127.0.0.1
 
-#cover:
-#  platform: garadget
+alarm_control_panel:
+  platform: alarmdotcom
+  username: !secret alarm_username
+  password: !secret alarm_password
+
+cover:
+  platform: myq
+  username: !secret myq_username
+  password: !secret myq_password
+  type: liftmaster
 #  covers:
 #      !secret large_garage_id:
 #        username: !secret garadget_username

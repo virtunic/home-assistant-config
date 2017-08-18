@@ -8,9 +8,8 @@ groups:
 
   - name: thermostats_temp
     entities:
-      - climate.downstairs
-      - climate.upstairs
-    text_template: '${entity.attributes.current_temperature ? Math.ceil(entity.attributes.current_temperature) + "°": "undefined"}'
+      - climate.home
+      text_template: '${entity.attributes.current_temperature ? Math.ceil(entity.attributes.current_temperature) + "°": "undefined"}'
     class_template: 'return "static-temp";'
 
   - name: temp_darksky
@@ -21,8 +20,7 @@ groups:
 
   - name: temp_round
     entities:
-      - sensor.downstairs_thermostat_humidity
-      - sensor.upstairs_thermostat_humidity
+      - sensor.home_thermostat_humidity
       - sensor.dark_sky_humidity
     text_template: '${entity.state ? Math.ceil(entity.state) : "undefined"}'
     class_template: 'return "static-temp";'
@@ -64,8 +62,8 @@ groups:
 
   - name: Family
     entities:
-      - device_tracker.carlo
-      - device_tracker.stacey
+      - device_tracker.Nick
+      - device_tracker.Abby
     text_template: '${entity.state ? entity.state.replace("not_home", "away") : "undefined"}'
 
     states:
